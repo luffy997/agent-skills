@@ -30,6 +30,8 @@ Every skill here is self-contained, versioned in git, and usable across tools th
 | Skill | What it does | Contents |
 | --- | --- | --- |
 | [key-reporting](skills/key-reporting/) | Structures work reports for research and engineering teams: audience analysis, one-message outlines, review defense, and evidence gap detection. | `SKILL.md` · `references/` · `assets/` |
+| [requirement-analysis](skills/requirement-analysis/) | Turns vague requirements into verifiable engineering specs: confirmation gates, candidate options, a decision ledger, and acceptance criteria. | `SKILL.md` · `references/` · `assets/` |
+| [sensitive-info-guard](skills/sensitive-info-guard/) | Scans staged changes for passwords, keys, IPs, internal domains, and company or personal names before a commit, and blocks risky ones. | `SKILL.md` · `references/` · `scripts/` · `examples/` |
 
 ## Install
 

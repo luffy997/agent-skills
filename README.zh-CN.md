@@ -30,6 +30,8 @@ Agent Skill 是由指令、参考资料和资产组成的文件夹，AI 在需�
 | 技能 | 作用 | 内容 |
 | --- | --- | --- |
 | [key-reporting](skills/key-reporting/) | 面向研发与工程团队的工作汇报技能：听众分析、一句话主张、结构化提纲、答辩预演与证据缺口识别。 | `SKILL.md` · `references/` · `assets/` |
+| [requirement-analysis](skills/requirement-analysis/) | 把模糊需求转化为可验收的研发规格：确认门禁、候选方案、决策台账与验收标准。 | `SKILL.md` · `references/` · `assets/` |
+| [sensitive-info-guard](skills/sensitive-info-guard/) | 提交前扫描密码、密钥、IP、内网域名、公司/客户及人员信息等敏感内容，发现风险即阻止提交。 | `SKILL.md` · `references/` · `scripts/` · `examples/` |
 
 ## 安装
 

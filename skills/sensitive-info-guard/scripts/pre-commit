@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+ROOT=$(git rev-parse --show-toplevel)
+python3 "$ROOT/scripts/check_sensitive.py"
+if ! command -v gitleaks >/dev/null 2>&1; then
+  echo '[敏感信息防泄漏] 未安装 gitleaks，已阻止提交' >&2
+  exit 2
+fi
+gitleaks git --staged --redact --exit-code 1 "$ROOT"
